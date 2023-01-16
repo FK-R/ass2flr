@@ -1,0 +1,64 @@
+.extra {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  border-radius: 12px;
+}
+.fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+input[type="email"],
+textarea[name="uname"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  resize: none;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+.extra {
+    display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
